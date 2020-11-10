@@ -6,7 +6,7 @@
 import numpy as np
 from tensorflow.keras.models import load_model
 import matplotlib.pyplot as plt
-from source.preprocessor_ann import reshape_input_data_for_time_history
+from src.preprocessor_ann import reshape_input_data_for_time_history
 
 def complete_prediction(NN_graphs, x_in, num_mc_trials, window_size, num_points_in_each_data_set,
                             activated_uncertainity=True):

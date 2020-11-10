@@ -5,7 +5,7 @@
 #####
 import numpy as np
 import pandas as pd
-from source.utilities import get_stress_tensor, get_sfabric_tensor, plot_x_y
+from src.utilities import get_stress_tensor, get_sfabric_tensor, plot_x_y
 datset_ids = range(59)
 # datset_ids = [0, 23, 29, 50, 56]
 num_load_steps = 501

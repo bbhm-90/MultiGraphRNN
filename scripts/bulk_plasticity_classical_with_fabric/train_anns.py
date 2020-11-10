@@ -4,8 +4,8 @@
 #    Under supervision Prof. Waiching Sun
 #####
 import pandas as pd
-from source.preprocessor_ann import creat_input_output_files
-from source.processor_ann import train_ann
+from src.preprocessor_ann import creat_input_output_files
+from src.processor_ann import train_ann
 NN_graphs = [
                 # # {'name':'0', 'in':["eps11", "eps22","eps33","prev_poro", "init_p"], 'out':['poro']},
                 # # {'name':'1', 'in':["eps11", "eps22","eps33", "poro", "prev_sig_eig1", "prev_sig_eig2", "prev_sig_eig3", "init_p"], 'out':["sig_eig1", "sig_eig2", "sig_eig3"]},

@@ -5,7 +5,7 @@
 #####
 import numpy as np
 import pandas as pd
-from source.utilities import get_stress_tensor, get_sfabric_tensor, plot_x_y
+from src.utilities import get_stress_tensor, get_sfabric_tensor, plot_x_y
 datset_ids = range(59)
 b_values = [0.]*6+[0.5]*6+[0.1]*6+[0.25]*6+[0.75]*6
 b_values = b_values + b_values

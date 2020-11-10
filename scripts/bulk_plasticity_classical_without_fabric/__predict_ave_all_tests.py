@@ -8,9 +8,9 @@ import os, sys
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from source.preprocessor_ann import reshape_input_data_for_time_history
-from source.feed_forward_predictions import complete_prediction
-from source.utilities import get_row_ids, prepare_graphs
+from src.preprocessor_ann import reshape_input_data_for_time_history
+from src.feed_forward_predictions import complete_prediction
+from src.utilities import get_row_ids, prepare_graphs
 
 
 NN_graphs = [

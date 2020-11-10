@@ -6,7 +6,7 @@
 import pandas as pd
 import numpy as np
 from pickle import load
-from source.plotter import plot_x_y
+from src.plotter import plot_x_y
 def get_row_ids(datasets, init_id_dataset, end_id_dataset):
     """
         it includes init to end_id_dataset-1!!!
@@ -28,7 +28,7 @@ def get_row_ids(datasets, init_id_dataset, end_id_dataset):
 
 def prepare_graphs(NN_graphs, root_dir, dropout_rates=None, num_history=None):
     from tensorflow.keras.models import load_model
-    from source.processor_ann import build_model
+    from src.processor_ann import build_model
     for i, graph in enumerate(NN_graphs):
         name = graph['name']
         scaler_in = load(open(root_dir+name+'/in_data_scaler.pkl', 'rb'))

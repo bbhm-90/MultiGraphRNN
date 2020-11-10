@@ -5,9 +5,9 @@
 #####
 import pandas as pd
 import numpy as np
-from source.preprocessor_ann import creat_input_output_files
-from source.processor_ann import train_ann
-from source.utilities import get_eigvals
+from src.preprocessor_ann import creat_input_output_files
+from src.processor_ann import train_ann
+from src.utilities import get_eigvals
 def add_modification_culumns(data_raw_df, num_data_sets, num_points_in_each_data_set):
     assert data_raw_df.shape[0] == num_data_sets*num_points_in_each_data_set
     transformed_p = []

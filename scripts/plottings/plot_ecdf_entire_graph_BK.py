@@ -6,7 +6,7 @@ import os
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from source.plotter import plot_x_y
+from src.plotter import plot_x_y
 from sklearn.preprocessing import MinMaxScaler
 root_folder = './results/'
 ann_cases= [

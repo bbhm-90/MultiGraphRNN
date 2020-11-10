@@ -5,7 +5,7 @@
 import os
 import pandas as pd
 import numpy as np
-from source.plotter import plot_x_y
+from src.plotter import plot_x_y
 root_folder = './results/'
 ann_cases= [
             # 'ANN_graphs_bulk_plasticity_classical_without_fabric',
